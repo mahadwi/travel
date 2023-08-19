@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Transparent Navbar with Bootstrap 5</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="position-relative overflow-x-hidden">
+
+  <header class="bg-transparent new-header position-fixed">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img class="logo" src="/assets//img/logo.webp" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/img/toba-header.webp" class="d-block w-100 img-fluid h-100" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="/assets/img/headerborobudur.webp" class="d-block w-100 img-fluid" alt="...">
+      </div>
+      <div class="carousel-item active">
+        <img src="/assets/img/Header_TanjungKelayang.webp" class="d-block w-100 img-fluid" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <section class="container mb-5">
+    <div class="row my-5">
+      <h1>Destination Highlight</h1>
+    </div>
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+      <div class="col">
+        <div class="card position-relative">
+          <img src="/assets/img/toba-thumbnail.png" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/header.webp" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/headerborobudur.webp" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/rajaampatH.webp" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/Header_TanjungKelayang.webp" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 mt-3">
+      <div class="col">
+        <div class="card position-relative">
+          <img src="/assets/img/floresH.webp" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/toba-thumbnail.png" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/toba-thumbnail.png" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/toba-thumbnail.png" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/assets/img/toba-thumbnail.png" class="card-img-top scale-img object-fit-cover w-100 h-100" alt="thumbnail">
+        </div>
+      </div>
+    </div>
+  </section>
+  <hr class="container">
+  <section class="container mb-5">
+    <div class="row my-5">
+      <h1>What They Say</h1>
+    </div>
+    <div class="row">
+      <div class="col-8">
+        <iframe class="w-100" height="315" src="https://www.youtube.com/watch?v=zcojGJdR1-0&list=PLiEJ09XD2yMEv6YSZHQanjfkDMvSjPTFJ&ab_channel=WonderfulIndonesia" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="col-4">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">The Quiet Atmosphere of Ubud - Bali</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Indonesia</h6>
+            <p class="card-text">Well, I just love Bali so much, and we fell in love with the culture, people, the food. Everything was just amazing. I feel like in Bali, you can find serenity anywhere, literally. It's our favorite place that we've been to on our entire trip.</p>
+            <a href="#" class="card-link">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-page">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-lg-4 col-sm-12 logo-wrapper flex-column align-items-center text-lg-start text-center align-items-lg-start">
+          <img height="70px" src="/assets/img/logo.webp" class="ms-lg-4 ps-lg-3" alt="logo">
+        </div>
+        <div class="col-lg-8 col-sm-12 flex-wrap text-center d-flex links justify-content-center justify-content-lg-end align-items-center footer-revamp-link">
+          <h2 class="text-light">Wonderful Indonesia</h2>
+        </div>
+      </div>
+      <div class="row mx-0 pt-5 mb-n4 mt-5 justify-content-center align-items-center" style="border-top : #112443 solid 1px">
+        <div class="col-9 text-center">
+          <div class="container">
+            <p class="mx-n4 text-light">
+              This is the official website of the Ministry of Tourism, Republic of Indonesia. The contents listed on this website are intended for informational purposes rather than commercial. Any displayed sale is meant as a token of partnership and will always redirect you to our partners' sites.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/js/script.js"></script>
+</body>
+</html>
